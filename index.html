@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Happy Birthday</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Kristi&family=Lobster&family=Potta+One&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+       <div class="bday">
+          Happy Birthday
+       </div>
+       <div class="name">
+          Kaju ❤️
+       </div>
+       <div class="wrapper">
+             <div class="img-area">
+                <div class="single-img img-one">
+                    <img src="IMG-20200825-WA0001.jpg" alt="">     
+                </div> 
+                <div class="single-img img-two">
+                   <img src="IMG-20200816-WA0009.jpg" alt="">     
+                </div> 
+                <div class="single-img img-three">
+                    <img src="Snapchat-1952664935.jpg" alt="">     
+                </div> 
+                <div class="single-img img-four">
+                    <img src="Snapchat-677227072.jpg" alt="">     
+                </div>
+                <div class="single-img img-five">
+                    <img src="Snapchat-801711522.jpg" alt="">     
+                </div> 
+                <div class="single-img img-six">
+                    <img src="IMG-20200831-WA0008.jpg" alt="">     
+                </div>
+             </div>
+       </div>
+       <div class="message">
+           Happiest birthday babe, for me you are as special as this day for u. i wish that you 
+           get all the happiness in your life. Thank You so much for being there in my life. 
+           i love you so much babe ❤️.
+       </div>
+       <script src="./confetti.js"></script>
+       <script>
+           const startit = () => {
+                setTimeout(function () {
+                    console.log("start");
+                    confetti.start();
+                }, 1000);
+            };
+
+            const stopit = () => {
+                setTimeout(function () {
+                    console.log("stop");
+                    confetti.stop();
+                }, 6000);
+            };
+
+            startit();
+            stopit();
+       </script>
+    </body>
+</html>
